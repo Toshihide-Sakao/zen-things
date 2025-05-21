@@ -8,12 +8,19 @@
     "scripts": ["background.js"]
   },
   "commands": {
-    "move-tab": {
+    "move-tab-new-window": {
       "suggested_key": {
         "default": "Shift+Alt+T",
         "mac": "Shift+Alt+T"
       },
       "description": "Move current tab to a new window"
+    },
+    "move-tab-last-window": {
+      "suggested_key": {
+        "default": "Shift+Alt+L",
+        "mac": "Shift+Alt+L"
+      },
+      "description": "Move current tab to last focused window"
     }
   }
 }
