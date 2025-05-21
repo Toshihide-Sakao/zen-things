@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Custom keyshortcuts",
+  "version": "1.0",
+  "description": "Alot of new custom keyboards",
+  "permissions": ["tabs"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "commands": {
+    "move-tab": {
+      "suggested_key": {
+        "default": "Shift+Alt+T",
+        "mac": "Shift+Alt+T"
+      },
+      "description": "Move current tab to a new window"
+    }
+  }
+}

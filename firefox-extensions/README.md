@@ -1,0 +1,1 @@
+all firefox type extensions
