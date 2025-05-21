@@ -1,3 +1,3 @@
-## Move Tab to New Window
+# Custom shortcuts
 
-move 
+clone and import
